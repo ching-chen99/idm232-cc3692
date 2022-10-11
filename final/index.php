@@ -7,10 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include 'components/header.php'; ?>
+    <?php include_once 'components/header.php'; ?>
 
-    <h1><?php echo 'Assignment - 01'; ?></h1>
+    <?php $name = 'Assignment - 01'; ?>
+
+    <h1><?php echo $name; ?></h1>
     
-    <?php include 'components/footer.php'; ?>
+    <?php include_once 'components/footer.php'; ?>
 </body>
 </html>
